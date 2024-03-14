@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+#web-title {
+  background-color: rgb(0, 0, 174);
+  color: yellow;
+  padding: 30px 0;
+}
+
+ul {
+  font-family: Arial;
+  list-style-type: none;
+  background-color: blue;
+  height: 46px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.drp {
+  display: inline-block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li .menu-item {
+  display: inline-block;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  z-index: 1;
+}
+
+.menu-item:hover a {
+  background-color: white;
+  color: black;
+}
+
+.menu-content a {
+  font-family: Arial;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-content a:hover {
+  background-color: black;
+  color: white;
+}
+
+.menu-item:hover .menu-content {
+  display: block;
+}
+
+h1 {
+  color: blue;
+  font-family: Arial;
+}
+
+#reagle {
+  position: absolute;
+  height: 200px;
+  top: 220px;
+  left: 250px;
+  animation: moveLeftAndRight 4s ease-in-out infinite alternate;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-item td {
+  background-color: whtie;
+  width: 300px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+  background-color: rgb(208, 208, 208);
+  border: 5px solid black;
+}
+
+.product-item td img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.white_content {
+  position: absolute;
+  border-radius: 10px;
+  border: 10px groove black;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80px;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  display: none;
+  z-index: 1000;
+}
+
+#shoppinglogo {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  height: 30px;
+  padding: 12px 0;
+  padding-right: 2px;
+  border-radius: 30px;
+  background-color: white;
+  z-index: 2;
+}
+
+#cart {
+
+  position: absolute;
+  display: none;
+  top: 95px;
+  left: 80%;
+  background-color: gray;
+  border-radius: 10px;
+  border: 3px solid white;
+  height: 100%;
+  width: 20%;
+  color: white;
+  z-index: 2;
+}
+
+.black_content {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+#web-title img{
+  height:10px;
+}
